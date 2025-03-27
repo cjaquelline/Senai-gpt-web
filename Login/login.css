@@ -88,44 +88,47 @@ display: flex;
 
 .container2 {
     display: flex;
-    
+       
     
     
 
 }
 
 .chats {
-    width: 20vw;
+    width: 17vw;
     height: 100vh;
     /* margin: 20px; */
-    background-color: blueviolet;
+    /* background-color: pink; */
     flex-direction: column;
     align-items: center;
     display: flex;   
+    border-right: 1px solid #ccc;
 
 }
 .New-chat {
     background-color: black;
-    padding: 18px;
+    padding: 12px;
     border-radius: 10px;
     color: white;
     border: none;
     width: 15vw;
     margin: 20px;
     font-size: 18px;
+    gap: 8px;
     
 }
 
 .chat1 {
     background-color: white;
-    padding: 18px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 8px;
     color: black;
     border: none;
-    width: 20vw;
+    width: 17vw;
     font-size: 16px;
     display: flex;
     justify-content: center;
+    gap: 4px;
     
 }
 
@@ -133,14 +136,76 @@ display: flex;
 
 .chat2 {
     background-color: white;
-    padding: 18px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 8px;
     color: black;
     border: none;
-    width: 20vw;
+    width: 17vw;
     font-size: 16px;
     
-      
+   display: flex;
+   justify-content: center;
+   gap: 4px;
+   
+   /* border-top: 1px solid #ccc; */
+   
+
+}
+
+.container3 {
+
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+
+    background-color: pink; */
+    padding: 50px;
+    width: 100vw; 
+    height: 15vh;
+   
+    
 }
 
 
+.typemessage {
+    align-items: center;
+    width: 50vw; 
+    height: 5vh; 
+    border: nome; 
+    border-radius: 16px;
+    border-color: pink;
+    background-color: #F7F9FB;
+    display: flex;
+
+    
+}
+
+.contexto {
+    display: flex;
+    
+
+    
+}
+
+.logo2 {
+
+    width: 30vw;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela{
+
+    width: 50vw;
+    height: 50vh;
+}
+
+thead, th{
+    font-size: 18px;
+    padding: 10px;
+
+    
+}
