@@ -83,3 +83,64 @@ display: flex;
 
     
 }
+
+/* Pagina 2 */
+
+.container2 {
+    display: flex;
+    
+    
+    
+
+}
+
+.chats {
+    width: 20vw;
+    height: 100vh;
+    /* margin: 20px; */
+    background-color: blueviolet;
+    flex-direction: column;
+    align-items: center;
+    display: flex;   
+
+}
+.New-chat {
+    background-color: black;
+    padding: 18px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 15vw;
+    margin: 20px;
+    font-size: 18px;
+    
+}
+
+.chat1 {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    width: 20vw;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.chat2 {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    width: 20vw;
+    font-size: 16px;
+    
+      
+}
+
+
