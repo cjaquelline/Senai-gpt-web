@@ -93,17 +93,20 @@
 
 }
 
+
 .New-chat {
     background-color: black;
     padding: 12px;
     border-radius: 10px;
     color: white;
     border: none;
-    width: 17vw;
+    /* width: 17vw; */
     margin: 20px;
     font-size: 18px;
-    /* gap: 4px; */
-
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .chat1 {
@@ -117,7 +120,7 @@
     display: flex;
     justify-content: center;
 
-    /* gap: 4px; */
+    
 
 }
 
@@ -146,16 +149,13 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: auto;
+    
     
     
     background-color: pink;
     padding: 50px;
     width: 83vw;
-    /* height: 15vh; */
-
-
-
+    
 
 }
 
@@ -176,6 +176,8 @@
 .contexto {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
@@ -190,29 +192,19 @@
     align-items: center;
 }
 
-.tabela {
+.tabela t {
 
-    width: 50vw;
-    height: 25vh;
-
+    width: 5vw;
+    height: 5vh;
+       
+ 
+    
+    
 
 }
 
 .tabela th {
     font-size: 18px;
-    padding: 20px;
     background-color: #F7F9FB;
-
-
-}
-
-.tabela td {
-
-    padding: 20px;
-    margin: 10px;
-    border: nome;
-    border-radius: 8px;
-    background-color: #F7F9FB;
-    border-color: pink;
 
 }
