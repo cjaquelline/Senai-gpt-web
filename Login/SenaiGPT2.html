@@ -1,116 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Inicial - SenaiGPT</title>
 
     <link rel="stylesheet" href="login.css">
+    
 
 
 </head>
+
 <body>
     <header></header>
-    
+
     <main class="container2">
         <div class="chats">
-            <button class="New-chat">+ New chat</button>
-    
-            <button class="chat1">Al Chat Tool Ethics</button>
-            <button class="chat1">Al Chat Tool Impact Writing</button>
-            <button class="chat1">New Chat</button>
-        
-            <button class="chat2" style="border-top: 1px solid #ccc"> Clear conversations</button>
-            <button class="chat2">Ligth mode</button>
-            <button class="chat2">My account</button>
-            <button class="chat2">Updates & FAQ</button>
-            <button class="chat2">Login <output></output></button>
+
+            <div class="superior">
+                <button class="New-chat">+ New chat</button>
+
+                <button class="chat1">Al Chat Tool Ethics</button>
+                <button class="chat1">Al Chat Tool Impact Writing</button>
+                <button class="chat1">New Chat</button>
+            </div>
+
+            <div class="inferior">
+                <button class="chat2" style="border-top: 1px solid #ccc"> Clear conversations</button>
+                <button class="chat2">Ligth mode</button>
+                <button class="chat2">My account</button>
+                <button class="chat2">Updates & FAQ</button>
+                <button class="chat2">Login </button>
+            </div>
         </div>
 
-
-
-    
-        <div class="container3">
-
-            <form action="Login/SenaiGPT2.html">  
-                <!--Para onde vai o conteudo digitado, lembrando que com html e css apenas criamos e estilisamos, precisamos de  uma outras linguagem para receber o que está sendo digitando--> 
-            <!--dentro da tag from, posso utilizar o METHOOD GET (aparece no url a informação ou POST que aparece somente internamente (ex Login, senha)-->
-            <!-- <input type="text" name="Type message" value="Type message"/> -->
-
-            <textarea name="typemessage" class="typemessage"> </textarea>
-
-            <!-- <input type="submit"> -->
-             
-        </form>
-        </div>
-
-    
 
         <div class="contexto">
 
             <img class="logo2" src="../assets/imgs/Chat.png" alt="Logo do SenaiGPT">
-            
-            <table  class="tabela" border="1">
-            <thead>    
-                <tr>
-                    <th>Examples</th>
-                    <th>Capabilites</th>
-                    <th>Limitations</th>
-                </tr>
-            </thead>
-    
-            <tbody>
-                <tr>
-                    <td>
-                        <button>"Explain quantum computing insimples terms"</button>
-                    </td>
-                    <td>
-                        <button>"Got any creative ideas for a 10year old's birthday?"</button>
-                    </td>
-                    <td>
-                        <button>"How do I make na HTTP requestin Javascript?"</button>
-                    </td>
-    
-                </tr>
-    
-                <tr>
-                    <td>
-                        <button>Remember what user saidearlier in the conversation.</button>
-                    </td>
-                    <td>
-                        <button>Allows user to provide follow-up corrections.</button>
-                    </td>
-                    <td>
-                        <button>Trainer to decline inappropriate requests.</button>
-                    </td>
-                </tr>
-                    
-                
-                <tr>
-                    <td>
-                        <button>May occasionally generate incorrect information.</button>
+
+            <table class="tabela" >
+                <thead>
+                    <tr>
+                        <th>Examples</th>
+                        <th>Capabilites</th>
+                        <th>Limitations</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <button>"Explain quantum computing insimples terms"</button>
                         </td>
-                    <td>
-                        <button>May occasionally produce harmful instrucions or biased content.</button>
-                    </td>
-                    <td>
-                        <button>Limited knowledge of world andevents after 2021.
-                        </button>
-                    </td>
-                </tr>
+                        <td>
+                            <button>Remember what user saidearlier in the conversation.</button>
+                        </td>
+                        <td>
+                            <button>May occasionally generate incorrect information.</button>
+                        </td>
 
-            </tbody>    
-               </table>
-            
-        
-    
-             </div>
+                    </tr>
 
-    
+                    <tr>
+                        <td>
+                            <button>Remember what user saidearlier in the conversation.</button>
+                        </td>
+                        <td>
+                            <button>Allows user to provide follow-up corrections.</button>
+                        </td>
+                        <td>
+                            <button>May occasionally produce harmful instructions or baised content.</button>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <button>"How do I make na HTTP requestin Javascript?"</button>
+                        </td>
+                        <td>
+                            <button>Trainer to decline inappropriate requests.</button>
+                        </td>
+                        <td>
+                            <button>Limited knowledge of world andevents after 2021.</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <div class="container3">
+
+                <form action="Login/SenaiGPT2.html">
+                    <!--Para onde vai o conteudo digitado, lembrando que com html e css apenas criamos e estilisamos, precisamos de  uma outras linguagem para receber o que está sendo digitando-->
+                    <!--dentro da tag from, posso utilizar o METHOOD GET (aparece no url a informação ou POST que aparece somente internamente (ex Login, senha)-->
+                    <!-- <input type="text" name="Type message" value="Type message"/> -->
+
+                    <textarea name="typemessage" class="typemessage"> </textarea>
+
+                    <!-- <input type="submit"> -->
+
+                </form>
+            </div>
+
+
+
+        </div>
+
+
 
     </main>
 
-        
-    
+
+
 </body>
+
 </html>

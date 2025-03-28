@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-* { 
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -8,22 +8,10 @@
 
 }
 
-/* .titulo { 
 
-    font-size: 76px;
+.paige-container {
 
-
-
-} */
-
-/* #meutitulo {
-
-    font-size: 76px;
-} */
-
-.paige-container{
-
-display: flex;
+    display: flex;
 
 }
 
@@ -36,15 +24,14 @@ display: flex;
     margin-bottom: 16px;
 }
 
-
 .inpt {
-    padding: 18px;  
+    padding: 18px;
     border: none;
     background-color: #f7f9fb;
     border-radius: 10px;
     width: 377px;
     margin-bottom: 16px;
-    
+
 }
 
 .btn {
@@ -54,13 +41,15 @@ display: flex;
     width: 377px;
     border-radius: 10px;
     color: white;
-    border: none;  
+    border: none;
 
 }
 
+
+
 .login-container {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -81,16 +70,13 @@ display: flex;
     background-image: url(../assets/imgs/Sidebar.png);
     background-size: cover;
 
-    
+
 }
 
 /* Pagina 2 */
 
 .container2 {
     display: flex;
-       
-    
-    
 
 }
 
@@ -98,24 +84,26 @@ display: flex;
     width: 17vw;
     height: 100vh;
     /* margin: 20px; */
-    /* background-color: pink; */
+    background-color: pink;
     flex-direction: column;
     align-items: center;
-    display: flex;   
+    display: flex;
+    justify-content: space-between;
     border-right: 1px solid #ccc;
 
 }
+
 .New-chat {
     background-color: black;
     padding: 12px;
     border-radius: 10px;
     color: white;
     border: none;
-    width: 15vw;
+    width: 17vw;
     margin: 20px;
     font-size: 18px;
-    gap: 8px;
-    
+    /* gap: 4px; */
+
 }
 
 .chat1 {
@@ -128,8 +116,9 @@ display: flex;
     font-size: 16px;
     display: flex;
     justify-content: center;
-    gap: 4px;
-    
+
+    /* gap: 4px; */
+
 }
 
 
@@ -142,70 +131,88 @@ display: flex;
     border: none;
     width: 17vw;
     font-size: 16px;
-    
-   display: flex;
-   justify-content: center;
-   gap: 4px;
-   
-   /* border-top: 1px solid #ccc; */
-   
+
+    display: flex;
+    justify-content: center;
+    /* gap: 8px; */
+
 
 }
+
 
 .container3 {
 
     display: flex;
-    align-items: center;   
-    justify-content: center; 
-
-    background-color: pink; */
-    padding: 50px;
-    width: 100vw; 
-    height: 15vh;
-   
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: auto;
     
+    
+    background-color: pink;
+    padding: 50px;
+    width: 83vw;
+    /* height: 15vh; */
+
+
+
+
 }
 
 
 .typemessage {
     align-items: center;
-    width: 50vw; 
-    height: 5vh; 
-    border: nome; 
+    width: 50vw;
+    height: 5vh;
+    border: nome;
     border-radius: 16px;
     border-color: pink;
     background-color: #F7F9FB;
     display: flex;
 
-    
+
 }
 
 .contexto {
     display: flex;
-    
+    flex-direction: column;
 
-    
+
 }
 
 .logo2 {
 
     width: 30vw;
     height: 10vh;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.tabela{
+.tabela {
 
     width: 50vw;
-    height: 50vh;
+    height: 25vh;
+
+
 }
 
-thead, th{
+.tabela th {
     font-size: 18px;
-    padding: 10px;
+    padding: 20px;
+    background-color: #F7F9FB;
 
-    
+
+}
+
+.tabela td {
+
+    padding: 20px;
+    margin: 10px;
+    border: nome;
+    border-radius: 8px;
+    background-color: #F7F9FB;
+    border-color: pink;
+
 }
