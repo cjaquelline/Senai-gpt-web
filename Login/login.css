@@ -81,10 +81,10 @@
 }
 
 .chats {
-    width: 17vw;
-    height: 100vh;
+    width: 18vw;
+    height: 98vh;
     /* margin: 20px; */
-    background-color: pink;
+    /* background-color: pink; */
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -96,21 +96,26 @@
 
 .New-chat {
     background-color: black;
-    padding: 12px;
+    padding: 10px;
     border-radius: 10px;
     color: white;
     border: none;
-    /* width: 17vw; */
+    width: 14vw;
     margin: 20px;
     font-size: 18px;
     display: flex;
+
     justify-content: center;
+    /* align-items: center;
+    flex-direction: column;
+    justify-items: center; */
+
     
     
 }
 
 .chat1 {
-    background-color: white;
+    background-color: #F7F9FB;
     padding: 12px;
     border-radius: 8px;
     color: black;
@@ -118,16 +123,25 @@
     width: 17vw;
     font-size: 16px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 
     
 
 }
 
+.chat1 img{
+
+    margin-right: 15px;
+}
+
 
 
 .chat2 {
-    background-color: white;
+    background-color: #F7F9FB;
     padding: 12px;
     border-radius: 8px;
     color: black;
@@ -136,10 +150,15 @@
     font-size: 16px;
 
     display: flex;
-    justify-content: center;
-    /* gap: 8px; */
+    align-items: center;
+    flex-direction: row;
+    
 
+}
 
+.chat2 img{
+
+    margin-right: 15px;
 }
 
 
@@ -149,13 +168,12 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    margin-top: auto;
     
     
-    
-    background-color: pink;
+    /* background-color: pink; */
     padding: 50px;
     width: 83vw;
-    
 
 }
 
@@ -166,7 +184,7 @@
     height: 5vh;
     border: nome;
     border-radius: 16px;
-    border-color: pink;
+    /* border-color: pink; */
     background-color: #F7F9FB;
     display: flex;
 
@@ -176,35 +194,52 @@
 .contexto {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    margin-top: 180px;
 
 
 }
 
 .logo2 {
 
-    width: 30vw;
-    height: 10vh;
+    /* width: 30vw; */
+    /* height: 10vh; */
 
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.tabela t {
-
-    width: 5vw;
-    height: 5vh;
-       
- 
-    
-    
 
 }
+
 
 .tabela th {
-    font-size: 18px;
-    background-color: #F7F9FB;
+    font-size: 22px;
+    /* background-color: #F7F9FB; */
+    height: 8vh;
 
+    
+    
+
+}
+
+/* .tabela th img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+} */
+
+.tabela button {
+    background-color: #F7F9FB;
+    
+    padding: 12px;
+    border-radius: 8px;
+    color: black;
+    border: none;
+    width: 17vw;
+    font-size: 16px;
+    height: 7vh;
+    
 }
