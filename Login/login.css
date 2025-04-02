@@ -81,10 +81,8 @@
 }
 
 .chats {
-    width: 18vw;
-    height: 98vh;
-    /* margin: 20px; */
-    /* background-color: pink; */
+
+    height: 100vh;
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -104,14 +102,8 @@
     margin: 20px;
     font-size: 18px;
     display: flex;
-
     justify-content: center;
-    /* align-items: center;
-    flex-direction: column;
-    justify-items: center; */
 
-    
-    
 }
 
 .chat1 {
@@ -123,13 +115,9 @@
     width: 17vw;
     font-size: 16px;
     display: flex;
-    /* justify-content: center; */
-
-    display: flex;
     align-items: center;
     flex-direction: row;
 
-    
 
 }
 
@@ -148,11 +136,9 @@
     border: none;
     width: 17vw;
     font-size: 16px;
-
     display: flex;
     align-items: center;
     flex-direction: row;
-    
 
 }
 
@@ -162,49 +148,16 @@
 }
 
 
-.container3 {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: auto;
-    
-    
-    /* background-color: pink; */
-    padding: 50px;
-    width: 83vw;
-
-}
-
-
-.typemessage {
-    align-items: center;
-    width: 50vw;
-    height: 5vh;
-    border: nome;
-    border-radius: 16px;
-    /* border-color: pink; */
-    background-color: #F7F9FB;
-    display: flex;
-
-
-}
-
 .contexto {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 180px;
-
+    width: 100vw;
 
 }
 
 .logo2 {
-
-    /* width: 30vw; */
-    /* height: 10vh; */
 
     display: flex;
     justify-content: center;
@@ -215,25 +168,24 @@
 
 .tabela th {
     font-size: 22px;
-    /* background-color: #F7F9FB; */
     height: 8vh;
-
-    
-    
+    padding: 10px;
 
 }
 
-/* .tabela th img {
+.tabela th img {
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+   
 
 
-} */
+}
 
 .tabela button {
     background-color: #F7F9FB;
-    
     padding: 12px;
     border-radius: 8px;
     color: black;
@@ -242,4 +194,46 @@
     font-size: 16px;
     height: 7vh;
     
+}
+
+.input-container input {
+
+    padding: 20px;
+    border: none;
+    background-color: #F7F9FB;
+    border-radius: 16px;
+    width: 40vw;
+
+
+}
+
+
+.input-container {
+    height: 7vh;
+    border: nome;
+    border-radius: 16px; 
+    background-color: #F7F9FB;
+    display: flex; 
+
+    margin-top: auto;
+    margin-bottom: 40px; 
+
+
+}
+
+.inpt1 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+
+}
+
+
+.inpt2 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+
 }
