@@ -19,8 +19,5 @@ start index.html
 HTML
 CSS
 JavaScript
-📦 Deploy
-Este projeto está hospedado no GitHub Pages, e pode ser acessado através do seguinte link:
-👉 senai-gpt - Chat
 
 
