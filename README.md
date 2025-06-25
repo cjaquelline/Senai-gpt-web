@@ -13,8 +13,10 @@ git clone https://github.com/cjaquelline/Senai-gpt-web
 Você pode abrir o arquivo diretamente no seu navegador:
 
 No Windows: clique duas vezes no index.html
+
 Ou, se preferir via terminal:
 start index.html
+
 🛠️ Tecnologias utilizadas:
 
 HTML
