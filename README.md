@@ -1,4 +1,6 @@
 SenaiGPT
+
+
 O senai-gpt é um projeto simples desenvolvido com HTML, CSS e JavaScript, que simula uma interação com um chatbot estilo GPT.
 Você pode acessar a aplicação diretamente pelo link abaixo:
 
